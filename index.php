@@ -8,6 +8,7 @@
     <!-- Font awesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="some.css">
   </head>
   <body>
 
@@ -15,11 +16,11 @@
     <header>
       <nav class = "navbar">
         <div class = "container">
-          <a href = "index.html" class = "navbar-brand">BLOG PAGE</a>
+          <a href = "" class = "navbar-brand">BLOG PAGE</a>
           <div class = "navbar-nav">
             <a href = "">home</a>
           
-            <a href = "">blog</a>
+            <a href = "#blog">blog</a>
             <a href = "storyform.php">write your story</a>
 
             <a href = "loginForm.php">login</a>
@@ -29,6 +30,16 @@
           </div>
         </div>
       </nav>
+      
+      <section class = "banner" id = "home">
+          
+            <div class = "contentBx">
+                <h2>Share your mind with the world.</h2>
+                <h4>A Simple blog website</h4>
+                <a href =  "#about" class = "btn ">About us</a>
+            </div>
+        </section>
+
       
      
     </header>
