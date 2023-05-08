@@ -19,9 +19,8 @@
           <div class = "navbar-nav">
             <a href = "">home</a>
             <a href = "">blog</a>
-            <a href = "storyform.php">write your story</a>
-
-            <a href = "login.php">login</a>
+            <a href = "/project/admin/admin_login.php">User Login</a>
+            
           </div>
         </div>
       </nav>
@@ -241,7 +240,7 @@ He hadn’t played since college but still held an athlete’s look.
             <div class = "blog-img">
               <img src = "images/blog-p-5.jpg" alt = "">
               <span><i class = "far fa-heart"></i></span>
-            </div>icing<
+            </div>
             <div class = "blog-text">
               <span>20 January, 2020</span>
               <h2>My Mother's Dreams</h2>
