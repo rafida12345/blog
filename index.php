@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Femme</title>
+    <title>Flourish Femme</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font awesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/blog/css/style.css">
+    <link rel="stylesheet" href="/blog/css/some.css">
   </head>
   <body>
 
@@ -15,25 +16,40 @@
     <header>
       <nav class = "navbar">
         <div class = "container">
-          <a href = "index.html" class = "navbar-brand">Flourish Fem</a>
+          <a href = "" class = "navbar-brand">Flourish Fem</a>
           <div class = "navbar-nav">
             <a href = "">home</a>
-            <a href = "">blog</a>
-            <a href = "/project/admin/admin_login.php">User Login</a>
-            
+            <a href = "#blog">blog</a>
+            <a href = "../project/admin/admin_login.php">login</a>
+            <a href = "../project/admin/register_admin.php">Register</a>
+
+
           </div>
         </div>
       </nav>
-           
+      
+      <section class = "banner" id = "home">
+          
+            <div class = "contentBx">
+                <h2>Share your mind with the world.</h2>
+                <h4>A Simple blog website</h4>
+                <a href =  "about" class = "btn ">About us</a>
+            </div>
+        </section>
+
+      
+     
     </header>
-    <!-- end of header -->   
+    <!-- end of header -->
+    
     <!-- design -->
     <section class = "design" id = "design">
       <div class = "container">
         <div class = "title">
-          <h2>Recent Posts</h2>
+          <h2>Recent stories</h2>
           <p>recent stories on the blog</p>
         </div>
+
         <div class = "design-content">
           <!-- item -->
           <div class = "design-item">
@@ -76,7 +92,8 @@
             <div class = "design-img">
               <img src = "images/art-design-4.jpg" alt = "">
               <span><i class = "far fa-heart"></i> 22</span>
-              <span>                
+              <span>
+                
               </span>
             </div>
             <div class = "design-title">
@@ -113,11 +130,12 @@
     </section>
     <!-- end of design -->
 
-   <!-- blog -->
+
+    <!-- blog -->
     <section class = "blog" id = "blog">
       <div class = "container">
         <div class = "title">
-          <h2>Trending Posts</h2>
+          <h2>trending posts</h2>
           <p>blogs about some untold stories</p>
         </div>
         <div class = "blog-content">
@@ -149,12 +167,12 @@ There is not enough time in a day to see her more often, or so my private narrat
             <div class = "blog-text">
               <span>20 January, 2020</span>
               <h2>“Speak now!” I said to myself again.</h2>
-            <div >
+            <div class="fixed-size">
             <p>“Hello folks! My name is Ada Thomas. Thanks so much for joining me today!”
 
 One year prior, on this same stage, I turned and walked off after my second ‘speak now’ prompt to myself. And that day was the second time I had done so in as many months. I vowed then to never put myself in such an embarrassing position again. No, not ever!
 
-But here I 34was. And to my great surprise and delight, the auditorium was once again filled with lovely folks. Some, most certainly, curious to see if I would have a three-peat, some perhaps hoping to finally hear what they came for earlier or some possibly to cheer me on to finish what I came to do.
+But here I was. And to my great surprise and delight, the auditorium was once again filled with lovely folks. Some, most certainly, curious to see if I would have a three-peat, some perhaps hoping to finally hear what they came for earlier or some possibly to cheer me on to finish what I came to do.
 
 “It is my sincere hope that you will leave here today with a bit more than you brought with you. It is my sincere hope that I will do the same,” my voice is calm. I am calm.
 
@@ -240,7 +258,7 @@ He hadn’t played since college but still held an athlete’s look.
             <div class = "blog-img">
               <img src = "images/blog-p-5.jpg" alt = "">
               <span><i class = "far fa-heart"></i></span>
-            </div>
+            </div>icing<
             <div class = "blog-text">
               <span>20 January, 2020</span>
               <h2>My Mother's Dreams</h2>
@@ -294,12 +312,11 @@ Beloved child, tuck me into this long sleep. </p>
           </div>
           <div class = "about-text">
             <div class = "title">
-              <h2>we can help each other</h2>
+              <h2>We can help each other</h2>
               <p>share your untold story</p>
             </div>
             <p>Welcome! You are important because of your own thoughts!</p>
-            <p>We believe that words have the power to inspire, educate, and connect people. Through our carefully crafted content, we aim to ignite creativity, spark conversations, and empower individuals to share their stories with the world. Whether you're a seasoned blogger or just starting out, we're here to support your journey in website development. Remember, every word you write has the potential to make a difference. So, let's create something extraordinary together and leave our mark on the digital world. Happy blogging!
-            </p>
+            <p>We believe that words have the power to inspire, educate, and connect people. Through our carefully crafted content, we aim to ignite creativity, spark conversations, and empower individuals to share their stories with the world. Whether you're a seasoned blogger or just starting out, we're here to support your journey in website development. Remember, every word you write has the potential to make a difference. So, let's create something extraordinary together and leave our mark on the digital world. Happy blogging!</p>
           </div>
         </div>
       </div>
@@ -316,7 +333,7 @@ Beloved child, tuck me into this long sleep. </p>
       </div>
       <div class="rights flex-row">
             <h4 class="text-gray">
-                Copyright ©2023 All rights reserved by RAF
+                Copyright ©2023 All rights reserved by RAF & Co.
             </h4>
         </div>
       <span></span>
